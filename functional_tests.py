@@ -17,7 +17,6 @@ class NewVisitorTest(unittest.TestCase):
         self.assertIn('To-Do', self.browser.title)
         self.fail('Finish the test!')
 
-
         # She is invited to enter a to-do item straight away
 
         # She types "Buy peacock feathers" into a text box (Edith's hobby
